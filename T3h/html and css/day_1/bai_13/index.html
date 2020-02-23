@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bài 13</title>
+</head>
+<body>
+    <center>
+        <h1>Đăng kí du lịch</h1>
+    </center>
+    <table border="1px" style="background-color: blanchedalmond;width: 50%;margin: 0 auto;">
+        <tr>
+            <td colspan="2" style="width: 150px;">Họ và tên</td>
+            
+            <td><input type="text" name="" id="" style="width: 250px;"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Địa chỉ</td>    
+            <td><input type="text" name="" id=""></td>
+        </tr>
+        <tr>
+            <td colspan="2">Điện thoại</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Khách Việt Nam</td>
+            <td><input type="checkbox"> Việt Nam</td>
+        </tr>
+        <tr>
+            <td colspan="2">Chọn tour</td>
+            <td>
+                <select name="" id="">
+                    <optgroup label="Miền Bắc">
+                        <option value="">Hạ Long</option>
+                        <option value="">Hải Phòng</option>
+                        <option value="">Ninh Bình</option>
+                    </optgroup>
+                    <optgroup label="Miền Trung">
+                        <option value="">Đà Nẵng</option>
+                        <option value="">Nha Trang</option>
+                        <option value="">Huế</option>
+                    </optgroup>
+                    <optgroup label="Miền Nam">
+                        <option value="">Phan Thiết</option>
+                        <option value="">Cần Thơ</option>
+                        <option value="">Cà Mau</option>
+                    </optgroup>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">Phương tiện</td>
+            <td>
+                <input type="checkbox">Máy bay 
+                <input type="checkbox">Xe otto
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="padding: 25px;position: relative;">
+                <span style="position: absolute; background-color: blanchedalmond;left: 71px;
+                top: 13px;">Số lượng đoàn khách</span>
+                <div style="width: 70%;margin: 0 auto;border: 1px solid brown;padding: 15px;">
+                    Người lớn <input type="text" style="width: 50px;">
+                    Trẻ em <input type="text" style="width: 50px;">
+                </div>
+            </td>
+            
+        </tr>
+        <tr>
+            <td colspan="2" >Ghi chú thêm</td>
+            <td><input type="textarea" name="" id="" style="width:70%;height: 50px;"></td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center;"><button onclick="choose()">Đồng ý</button></td>
+        </tr>
+        <tr>
+            <td colspan="3" id="demo3" style="text-align: center;color: red;font-family:cursive ;" >
+                
+            </td>
+        </tr>
+        <script>
+            function choose()
+            {
+                document.getElementById("demo3").innerHTML="bạn đăng kí thành công!!!" 
+            }
+            
+        </script>
+    </table>
+</body>
+</html>

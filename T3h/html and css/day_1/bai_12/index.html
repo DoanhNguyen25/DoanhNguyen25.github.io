@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 12</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <center>
+        <h1 style="color: darkgreen;">Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+    </center>
+    <table border="1px" style="border-collapse: collapse;width: 50%;margin: 0 auto;background-color: aquamarine;">
+        <tr>
+            <td colspan="2" style="width: 150px;">Họ và tên:</td>
+           
+            <td style="width: 250px;"><input type="text"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Địa chỉ</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Điện thoại</td>
+            <td><input type="text" name="" id=""></td>
+        </tr>
+        <tr>
+            <td colspan="2">Giới tính</td>
+            <td>
+                <input type="checkbox" name="gioitinh" id="" checked> Nam 
+                <input type="checkbox" name="gioitinh" id=""> Nữ
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" >Nghề nghiệp</td>
+            <td>
+                <select name="" id="">
+                    <option value="">Giáo viên</option>
+                    <option value="">Programer</option>
+                    <option value="">Thiết kế đồ họa</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="4">Chọn sản phẩm tham gia</td>
+            <td> <input type="radio" name="thing1" id="">Điện thoại</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="thing2" id="">Bột giặt</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="thing3" id="">Dầu gội đầu</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="thing4" id="">Sữa tắm</td>
+        </tr>
+        <tr>
+            <td colspan="2">Số người dự đoán tham gia</td>
+            <td><input type="text" name="" id="" value="25000"></td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center;"><button onclick="choose()">Đồng ý</button></td>
+        </tr>
+        <tr>
+            <td colspan="3" id="demo3" style="text-align: center;color: red;font-family:cursive ;" >
+                
+            </td>
+        </tr>
+        <script>
+            function choose()
+            {
+                document.getElementById("demo3").innerHTML="bạn đăng kí thành công!!!" 
+            }
+            
+        </script>
+    </table>
+</body>
+</html>

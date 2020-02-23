@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 11</title>
+</head>
+<body>
+    <!-- <input type="text" name="user" id="demo">
+    <button onclick="bam()"> click</button>
+    <br>
+    <p id="demo2"></p>
+    <script type="text/javascript">
+        
+        function bam()
+        {
+            var a=document.getElementById("demo2");
+            var b=document.getElementById("demo");
+            a.innerHTML=b.value;
+        }
+    </script> -->
+    <center>
+        <h1>Đăng nhập</h1>
+    </center>
+    <table border="1px" style="width: 35%;margin: 0 auto;border-collapse: collapse">
+        <tr>
+            <td>Mã người dùng:</td>
+            <td>
+                <input type="text" id="demo" name="user">
+            </td>
+        </tr>
+        <tr>
+            <td>Mật khẩu:</td>
+            <td>
+                <input type="password">
+            </td>
+        </tr>
+        <tr style="text-align: center;">
+            <td colspan="2">
+                <button onclick="bam()">Đồng ý</button>
+            </td>
+        </tr>
+        <tr>
+           <td id="demo2" colspan="2" style="text-align: center;font-family: cursive;color: red;"></td>
+                
+            
+        </tr>
+    </table>
+    <script type="text/javascript">
+        
+        function bam()
+        {
+            var a=document.getElementById("demo2");
+            var b=document.getElementById("demo");
+            a.innerHTML=b.value;
+        }
+    </script>
+    
+</body>
+</html>

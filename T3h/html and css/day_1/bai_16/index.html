@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 16</title>
+    <style>
+       .top
+       {
+           width: 100%;
+           height: 150px;
+           background-color: blanchedalmond;
+           border: 2px solid black;
+       }
+       .top-left
+       {
+           width:85%;
+           height: 100%;
+           background-color: brown;
+           float: left;
+       }
+       .top-right
+       {
+           width: 15%;
+           height: 100%;
+           background-color: burlywood;
+           float: left;
+       }
+       .text{
+           text-align: center;
+       }
+       .text p
+       {
+           display: inline-block;
+           font-weight: bold;
+           margin: 20px;
+           line-height:80px;
+       }
+       .top-right
+       {
+        /* background-image: url(./images/11.jpg); */
+       }
+       .image img
+       {
+          
+           width:100%;
+           height: 150px;
+       }
+       .content
+       {
+           width: 100%;
+           /* height: 300px; */
+           background-color: chocolate;
+       }
+       .content-1
+       {
+           width:35%;
+           height: 100%;
+           background-color: coral;
+           float: left;
+       }
+       .content-2
+       {
+           width: 65%;
+           height: 100%;
+           /* background-color: rgb(54, 187, 187); */
+           float: left;
+       }
+       /*================= class của phần sức khỏe ================*/
+       .content-2-1
+       {
+           width: 100%;
+           height: 200px;
+           /* background-color: bisque; */
+           margin-top: -16px;
+       }
+       .content-2-1 p
+       {
+           width: 100%;
+           height: 30px;
+           background-color:darkblue;
+           text-align: center;
+           line-height: 30px;
+           color: white;
+       }
+       .content-2-1-1
+       {
+           width: 100%;
+           height: 150px;
+           background-color: red;
+           border-bottom: 2px solid black;
+       }
+       .content-2-1-1-left
+       {
+           width: 30%;
+           height: 100%;
+           background-color: green;
+           float: left;
+       }
+       .content-2-1-1-right
+       {
+           width: 70%;
+           height: 100%;
+           float: left;
+           /* background-color: yellow; */
+       } 
+       /*================ kết thúc class phần tình yêu và gia đình==============*/
+
+       /* class phần sức khỏe */
+       .content-2-2
+       {
+           width: 100%;
+           height: 200px;
+           /* background-color: blue; */
+           margin-top: 191px;
+       }
+       /* class phần du lịch */
+
+       .content-2-3
+       {
+           width: 100%;
+           height: 200px;
+           /* background-color: brown; */
+           margin-top:204px;
+       }
+       .content-2-3-1
+       {
+           width: 100%;
+           height: 50%;
+           /* background-color: blue; */
+           border-bottom: 2px solid black;
+       }
+       .content-2-3-2
+       {
+           width: 100%;
+           height: 50%;
+           /* background-color:green; */
+       }
+
+       /* class phần ẩm thực */
+       .content-2-4
+       {
+           width: 100%;
+           height: 200px;
+           /* background-color: brown; */
+           margin-top: 100px;
+           border-top: 2px solid black;
+           
+          
+       }
+       .content-2-4-1
+       {
+           width:80%;
+           height: 100%;
+           /* background-color: blue; */
+           float: left;
+          
+       }
+       .content-2-4-2
+       {
+           width: 20%;
+           height: 100%;
+           background-color:green;
+           float: left;
+          
+       }
+       /* class phần âm nhạc */
+        .content-2-5
+       {
+           width: 100%;
+           height: 200px;
+           /* background-color: brown; */
+           margin-top: 50px;
+           border-top: 2px solid black;
+           
+          
+       }
+       .content-2-5-1
+       {
+           width:80%;
+           height: 100%;
+           /* background-color: blue; */
+           float: left;
+          
+       }
+       .content-2-5-2
+       {
+           width: 20%;
+           height: 100%;
+           /* background-color:green; */
+           float: left;
+          
+       }
+    </style>
+</head>
+<body>
+   <div class="top">
+       <div class="top-left">
+           <div class="text">
+               <p style="font-size: 50px;">Ai?</p>
+               <p style="font-size: 40px;">Cái gì?</p>
+               <p style="font-size: 30px;">Ở đâu?</p>
+           </div>
+       </div>
+       <div class="top-right">
+           <div class="image">
+               <img src="./images/11.jpg" alt="">
+           </div>
+       </div>
+   </div>
+
+
+   <div class="content">
+       <div class="content-1">
+           <ul style="list-style-type: circle;font-size: 20px;">
+               <li><a href="#tinhyeuvagiadinh">Tình yêu và gia đình</a></li>
+               <li><a href="#suckhoe">Sức khỏe</a></li>
+               <li><a href="#dulich">Du lịch</a></li>
+               <li><a href="#amthuc">Ẩm thực</a></li>
+               <li><a href="#amnhac">Âm nhạc</a></li>
+           </ul>
+       </div>
+       <div class="content-2">
+           <!-- bắt đầu phần tình yêu và gia đình -->
+           <div class="content-2-1" id="tinhyeuvagiadinh">
+               <p>Tình yêu và gia đình</p>
+               <span>Trầu cau</span>
+               <div class="content-2-1-1">
+                   <div class="content-2-1-1-left">
+                       <img src="./images/11.jpg" alt="" style="width:100%;height: 150px;">
+                   </div>
+                   <div class="content-2-1-1-right">
+                      <span>TÌnh yêu là gì?Là ta yêu một người mỗi ngày trong một năm.Mỗi năm trong một đời người...</span>
+                   </div>
+               </div>
+
+
+               <span>Xây dựng hạnh phúc gia đình qua những bữa cơm hàng ngày</span>
+               <div class="content-2-1-1">
+                   <div class="content-2-1-1-left">
+                       <img src="./images/11.jpg" alt="" style="width:100%;height: 150px;">
+                   </div>
+                   <div class="content-2-1-1-right">
+                      <span>TÌnh yêu là gì?Là ta yêu một người mỗi ngày trong một năm.Mỗi năm trong một đời người...Ình yêu là gì?Là ta yêu một người mỗi ngày trong một năm.Mỗi năm trong một đời người...Ình yêu là gì?Là ta yêu một người mỗi ngày trong một năm.Mỗi năm trong một đời người...</span>
+                   </div>
+               </div>
+           </div>
+           <!-- kết thúc phần tình yêu và gia đình -->
+
+
+           <!-- bắt đầu phần sức khỏe -->
+           <div class="content-2-2" id="suckhoe">
+            <p style="width: 100%;
+            height: 30px;
+            background-color:darkblue;
+            text-align: center;
+            line-height: 30px;
+            color: white; margin-top: 0;  ">Sức khỏe</p>
+            <span>10 lời khuyên trong dinh dưỡng</span>
+            <div class="content-2-1-1">
+                <div class="content-2-1-1-left">
+                    <img src="./images/11.jpg" alt="" style="width:100%;height: 150px;">
+                </div>
+                <div class="content-2-1-1-right">
+                   <span>Cơ thể chúng ta cần rất nhiều chất dinh dưỡng</span>
+                </div>
+            </div>
+
+
+            <span>Làm sao để bỏ thuốc lá</span>
+            <div class="content-2-1-1">
+                <div class="content-2-1-1-left">
+                    <img src="./images/11.jpg" alt="" style="width:100%;height: 150px;">
+                </div>
+                <div class="content-2-1-1-right">
+                   <span>TÌnh yêu là gì?Là ta yêu một người mỗi ngày trong một năm.Mỗi năm trong một đời người...Ình yêu là gì?Là ta yêu một người mỗi ngày trong một năm.Mỗi năm trong một đời người...Ình yêu là gì?Là ta yêu một người mỗi ngày trong một năm.Mỗi năm trong một đời người...</span>
+                </div>
+            </div>
+            <span style="float: right;"><a href="#">Về đầu trang</a></span>
+           </div>
+           <!-- kết thúc phần sức khỏe -->
+
+
+           <!-- bắt đầu phần du lịch -->
+           <div class="content-2-3" id="dulich">
+            <p style="width: 100%;
+            height: 30px;
+            background-color:darkblue;
+            text-align: center;
+            line-height: 30px;
+            color: white; margin-top: 0;  ">Du lịch</p>
+               <div class="content-2-3-1">
+                   <h2>Các tour mới nhất</h2>
+                   <ul>
+                       <li>Côn Minh-Đại Lý -Lệ Giang</li>
+                       <li>Đến Macao xem casino</li>
+                       <li>Về Cà Mau ăn tôm tít</li>
+                   </ul>
+               </div>
+               <div class="content-2-3-2">
+                   <h2>Các địa điểm du lịch nổi tiếng trên thế giới</h2>
+                   <ul>
+                       <li>Đảo Bali xinh đẹp-Indonexia</li>
+                       <li>Thành cổ Rome và tháp nghiêng Pisa</li>
+                       <li>Vạn lí trường thành</li>
+                   </ul>
+               </div>
+               <span style="float: right;"><a href="#">Về đầu trang</a></span>
+           </div>
+           <!-- kết thúc phần du lịch -->
+
+           <!-- bắt đầu phần ẩm thực -->
+           <div class="content-2-4" id="amthuc">
+            <p style="width: 100%;
+            height: 30px;
+            background-color:darkblue;
+            text-align: center;
+            line-height: 30px;
+            color: white; margin-top: 0;  ">Ẩm thực</p>
+                <div class="content-2-4-1">
+                    <ul>
+                        <li>Các món ăn mới trong tuần</li>
+                        <li>Chuyên mục dạy nấu ăn</li>
+                        <li>Món ngon Hà Nội</li>
+                        <li>Các món ăn dân dã ở miền Tây</li>
+                    </ul>
+                </div>
+                <div class="content-2-4-2">
+                    <img src="./images/11.jpg" alt="" style="width: 100%;height: 100%;">
+                </div>
+           </div>
+           <!-- kết thúc phần ẩm thực -->
+
+
+           <!-- bắt đầy phần âm nhạc -->
+           <div class="content-2-5" id="amnhac">
+            <p style="width: 100%;
+            height: 30px;
+            background-color:darkblue;
+            text-align: center;
+            line-height: 30px;
+            color: white; margin-top: 0;  ">Âm nhạc</p>
+               <div class="content-2-5-1">
+                   <h2>Nhạc thiếu nhi</h2>
+                   <ul >
+                       <li>Nắng sân trường</li>
+                       <li>Mẹ yêu không nào</li>
+                       <li>Ba bà đi bán lợn con</li>
+                   </ul>
+               </div>
+               <div class="content-2-5-2">
+                <img src="./images/11.jpg" alt="" style="width: 100%;height: 100%;">
+               </div>
+              
+               <div class="content-2-5-1" style="border-top: 2px solid black;">
+                <h2>Dân ca</h2>
+                <ul >
+                    <li>Bèo dạt mây trôi</li>
+                    <li>Lý cây bông</li>
+                    <li> Mười thương</li>
+                </ul>
+            </div>
+            <div class="content-2-5-2">
+             <img src="./images/11.jpg" alt="" style="width: 100%;height: 100%;">
+            </div>
+            <span style="float: right;"><a href="#">Về đầu trang</a></span>
+           </div>
+           <!-- kết thúc phần âm nhạc -->
+       </div>
+   </div>
+</body>
+</html>
