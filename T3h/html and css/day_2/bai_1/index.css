@@ -1,0 +1,23 @@
+*
+{
+    marigin:0;
+    padding: 0;
+}
+.container
+{
+    width: 100%;
+    background-color: #888325;
+}
+.form
+{
+    width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+    height: 400px;
+    text-align: center;
+    display: block;
+}
+.form-deco-1
+{
+    margin-bottom: 5px;
+}

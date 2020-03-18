@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="container">
+        <div class="left">
+            <div class="content-child">
+                <img src="https://i.imgur.com/bjAfMRA.jpg" alt="NIKE">
+            </div>
+            <div class="content-child">
+                <img src="https://i.imgur.com/eSB9rBs.jpg" alt="">
+            </div>
+            <div class="content-child">
+                <img src="https://i.imgur.com/XNQSx0z.jpg" alt="">
+            </div>
+        </div>
+        <div class="center">
+            <div class="preview-img" id="big">
+                <img src="https://i.imgur.com/XNQSx0z.jpg" alt="">
+                <div id="text"></div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="content-child">
+                <img src="https://i.imgur.com/ra3WzXt.jpg" alt="">
+            </div>
+            <div class="content-child">
+                <img src="https://i.imgur.com/XobVoWT.jpg" alt="">
+            </div>
+            <div class="content-child">
+                <img src="https://i.imgur.com/oAIzOTm.jpg" alt="" >
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        var bigImg=document.getElementById('big');
+        var subImg=document.querySelectorAll('.content-child > img');
+
+        for(var i=0;i<subImg.length;i++)
+        {
+            subImg[i].addEventListener('click', full_image);
+        }
+        function full_image()
+        {
+            var imgSrc=this.getAttribute('src');
+            bigImg.innerHTML="<img src="+imgSrc+">";
+        }
+        // var imgText=document.getElementById('text');
+        // imgText.innerHTML=subImg.alt;
+    </script>
+</body>
+</html>
