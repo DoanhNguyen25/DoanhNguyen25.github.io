@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="container">
+        <div class="basic">
+            <div class="basic-header">
+                <span style="letter-spacing: 2px;">Hàm,vòng lặp,điều kiện rẽ nhánh</span>
+            </div>
+
+            <div class="basic-quadratic">
+                <p style="font-weight: bold; letter-spacing: 2px;">Bài 1: Xây dựng hàm  giải phương trình bậc 2</p>
+                <div class="basic-quadratic-process">
+                    <input type="text" value="" style="width: 50px;" id="numberA"><span style="font-weight: bold;"> x<sup>2</sup> +</span>
+                    <input type="text" value="" style="width: 50px;" id="numberB"><span style="font-weight: bold;"> x + </span>
+                    <input type="text" value="" style="width: 50px;" id="numberC"><span style="font-weight: bold;"> = 0 </sup></span><br><br>
+                    <span id="result"></span>
+                    <div>
+                        <input type="button" value="Reset" class="deco-btn" onclick="reset();">
+                        <input type="button" value="Submit" class="deco-btn" onclick="quadratic();">
+                    </div>
+                </div>
+            </div>
+
+            <div class="basic-displayDate">
+                <p style="font-weight: bold; letter-spacing: 2px;">Bài 2: Nhập vào ngày tháng năm,in ra số ngày trong tháng</p>
+                <div class="basic-displayDate-process">
+                     <span style="font-weight: bold;">Month : </span>
+                     <select name="month" id="Month">
+                         <option value="1">1</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5</option>
+                         <option value="6">6</option>
+                         <option value="7">7</option>
+                         <option value="8">8</option>
+                         <option value="9">9</option>
+                         <option value="10">10</option>
+                         <option value="11">11</option>
+                         <option value="12">12</option>
+                     </select>
+                    <span style="font-weight: bold;"> Year : </span>
+                    <input type="number" name="" id="Year"><br><br>
+
+                    <span id="result2"></span>
+                    <div>
+                        <input type="button" value="Reset" class="deco-btn" onclick="reset();">
+                        <input type="button" value="Submit" class="deco-btn" onclick="date();">
+                    </div>
+                </div>
+            </div>
+            <div class="basic-prime">
+                <p style="font-weight: bold; letter-spacing: 2px;">Bài 3: Nhập vào một số nguyên n,in ra tất cả các số nguyển tố trong đoạn [1,n]</p>
+                <div class="basic-prime-process">
+                    <span style="font-weight: bold;">Nhập số n: </span><input type="number" value="" style="width: 50px;" id="prime"><br><br>
+
+
+                    <span id="result3"></span>
+                    <div>
+                        <input type="button" value="Reset" class="deco-btn" onclick="reset();">
+                        <input type="button" value="Submit" class="deco-btn" onclick="displayPrime();">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="advanced"></div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
