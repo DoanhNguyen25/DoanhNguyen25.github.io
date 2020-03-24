@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="showIssue()">
+    
+    <section class="wrapped">
+        <pre id="obj"></pre>
+        <button id="modalBtn" class="button">Update</button>
+    </section>
+    <section class="modal" id="modalForm">
+        <div class="modal-content">
+            <div class="modal-content-left">
+                <form action="" name="form1">
+                    <input type="text" id="title" name="title" >
+                    <div class="type">
+                        <span>Type :</span>
+                        <select name="type" id="type">
+                            <option value="task">Task</option>
+                            <option value="feature">Feature</option>
+                            <option value="issue">Issue</option>
+                            <option value="bug">Bug</option>
+                        </select>
+                    </div>
+                    <div class="state">
+                        <span>State :</span>
+                        <select name="state" id="state">
+                            <option value="todo">Todo</option>
+                            <option value="inprocessing">In Processing</option>
+                            <option value="interview">Interview</option>
+                            <option value="done">Done</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="priority">
+                        <span>Priority :</span>
+                        <input type="radio" name="priority" id="highest" value="highest">Highest
+                        <input type="radio" name="priority" id="high" value="high">High
+                        <input type="radio" name="priority" id="medium" value="medium">Medium
+                        <input type="radio" name="priority" id="low" value="low">Low
+                    </div>
+                    <br><br>
+                    <div class="allowFor">
+                        <span>Issue allow for :</span><br>
+                        <input type="checkbox" name="allowFor" id="back-end" value="back-end">Back-end <br>
+                        <input type="checkbox" name="allowFor" id="font-end" value="font-end">Front-end <br>
+                        <input type="checkbox" name="allowFor" id="function-test" value="function-test">Function tester <br>
+                        <input type="checkbox" name="allowFor" id="performance-test" value="performance-test">Performance tester
+                    </div>
+                    <br><br>
+                    <div class="description">
+                        <span>Description :</span><br>
+                        <textarea name="description" id="description"  rows="5" style="width: 100%;resize: none;"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-content-right">
+                <form action="" name="form2">
+                    <span><b>Created by:</b></span><br><br>
+                    <input type="text" name="createdby" id="createdby"><br><br><br>
+                    <span> <b>Assignee:</b> </span><br><br>
+                    <input type="text" name="assignee" id="assignee"><br><br><br>
+                    <span><b>Estimate:</b></span><br><br>
+                    <input type="text" name="estimate" id="">
+                </form>
+                
+            </div>
+
+            <div class="form-action">
+                <button class="button btn-save">Save</button>
+                <button class="button btn-close" >Close</button>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
