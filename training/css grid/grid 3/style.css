@@ -98,6 +98,26 @@ body{
     grid-row: span 6;
 }
 
+.gallery-container:last-child
+{
+    align-self: end;
+}
+.gallery-container:last-child .gallery-symbols
+{
+    margin-bottom: 30px;
+}
+.gallery-container:last-child .gallery-symbols i
+{
+    font-size: 50px;
+    padding-left: 20px;
+    color: white;
+}
+.gallery-container:last-child .gallery-symbols i:hover{
+    color: rgba(0,0,0,0.5);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 
 
 
