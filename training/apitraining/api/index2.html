@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: cursive;
+        }
+        .container{
+            width: 70%;
+            /* background-color: gray; */
+            height: 100px;
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            grid-gap: 5px;
+            margin: 0 auto;
+            display: none;
+        }
+        .col1
+        {
+            background-color:gray;
+            color: white;
+            text-align: center;
+            padding: 5px 0 0 0 ;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <center style="color: black;font-weight: 400;font-size: 30px;font-family: cursive;">CORONA VIRUS</center>
+    <center style="font-family: cursivel;font-weight: 400">update</center>
+    <br><br><br>
+    <center id="load"><h1>Loading......</h1></center>
+    
+    <div class="container">
+        <div class="col1">
+            <p>NewConfirmed</p><br>
+            <p id="demo1"></p>
+        </div>
+        <div class="col1">
+            <p>NewDeaths</p><br>
+            <p id="demo2"></p>
+        </div>
+        <div class="col1">
+            <p>NewRecovered</p><br>
+            <p id="demo3"></p>
+        </div>
+        <div class="col1">
+            <p>TotalConfirmed</p><br>
+            <p id="demo4"></p>
+        </div>
+        <div class="col1">
+            <p>TotalDeaths</p><br>
+            <p id="demo5"></p>
+        </div>
+        <div class="col1">
+            <p>TotalRecovered</p><br>
+            <p id="demo6"></p>
+        </div>
+    </div>
+    <script src="asyncTraining.js"></script>
+</body>
+</html>
