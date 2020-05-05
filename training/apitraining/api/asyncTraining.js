@@ -76,7 +76,7 @@ setTimeout(() => {
             document.getElementById("demo6").innerHTML = data.Global.TotalRecovered;
             
         })
-    }, 1000);
+    }, 3000);
 
     setTimeout(()=>
     {
