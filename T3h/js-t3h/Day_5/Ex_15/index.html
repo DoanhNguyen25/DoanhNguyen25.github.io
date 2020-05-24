@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <form action="" name="form">
+            <input type="text" id="text">
+        </form>
+        <table>
+            <tr>
+                <td><input type="button"  class="btn" value="C" onclick="clean()"></td>
+                <td><input type="button" class="btn" value="Del" onclick="dell()"></td>
+                <td><input type="button" class="btn" value="/" onclick="output('/')" ></td>
+                <td><input type="button" class="btn" value="*" onclick="output('*')" ></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="btn" value="7" onclick="output(7)"></td>
+                <td><input type="button" class="btn" value="8" onclick="output(8)"></td>
+                <td><input type="button" class="btn" value="9" onclick="output(9)"></td>
+                <td><input type="button" class="btn" value="-" onclick="output('-')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="btn" value="4" onclick="output(4)"></td>
+                <td><input type="button" class="btn" value="5" onclick="output(5)"></td>
+                <td><input type="button" class="btn" value="6" onclick="output(6)"></td>
+                <td><input type="button" class="btn" value="+" onclick="output('+')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="btn" value="1" onclick="output(1)"></td>
+                <td><input type="button" class="btn" value="2" onclick="output(2)"></td>
+                <td><input type="button" class="btn" value="3" onclick="output(3)"></td>
+                <td><input type="button" class="btn" value="=" onclick=" equal()"></td>
+            </tr>
+            <tr>
+                <td colspan="2" ><input type="button" class="btn" value="0" onclick="output(0)" style="width: 100px;"></td>
+                <td><input type="button" class="btn" value="." onclick="output('.')"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #option {
+            padding: 10px 5px 10px 5px;
+            width: 200px;
+            outline: none;
+            border-radius: 5px;
+            margin-top: 10%;
+            font-size: 20px;
+        }
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <select name="" id="option" onchange="ddd()">
+                <option value="red">red</option>
+                <option value="blue">blue</option>
+                <option value="brown">brown</option>
+                <option value="lavender">lavender</option>
+        </select>
+    </center>
+    <script>
+        const options = document.querySelectorAll("select option");
+        const body  = document.body;
+        function ddd()
+        {
+            options.forEach(x => {
+            if(x.selected)
+            {
+                console.log(x)
+                body.style.background = x.value;
+            }
+        });
+        }
+        
+        
+    </script>
+</body>
+
+</html>

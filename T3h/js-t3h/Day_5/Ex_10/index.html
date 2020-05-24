@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p class="showText"></p>
+    <button>showMore</button>
+    <button>showLess</button>
+    <script>
+
+
+        let txt = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolore voluptas, veritatis, quasi sint totam suscipit error nisi quis dicta, dolor explicabo nobis rem praesentium! Voluptatum repellendus temporibus odio asperiores."
+        const btnMore = document.getElementsByTagName('button')[0]
+        const btnLess = document.getElementsByTagName('button')[1]
+        const maxLength = 50
+        let showText = document.getElementsByTagName('p')[0]
+        showText.innerHTML = getShortText(txt)
+        //function
+        function getShortText(str) {
+            return str.substr(0, maxLength) + " ...";
+        }
+        if (txt.length < maxLength) {
+            btnLess.style.display = 'none'
+            btnMore.style.display = 'none'
+            showText.innerHTML = txt
+        }
+        else {
+            btnLess.style.display = "none"
+            btnMore.style.display = "block"
+            getShortText(txt)
+        }
+
+        function showMoreText() {
+            btnLess.style.display = 'block'
+            btnMore.style.display = 'none'
+            showText.innerHTML = txt
+        }
+        
+        function showLessText() {
+            btnLess.style.display = 'none'
+            btnMore.style.display = 'block'
+            showText.innerHTML = getShortText(txt)
+        }
+        /// button listeners
+        btnMore.addEventListener('click', showMoreText)
+        btnLess.addEventListener('click', showLessText)
+    </script>
+</body>
+
+</html>

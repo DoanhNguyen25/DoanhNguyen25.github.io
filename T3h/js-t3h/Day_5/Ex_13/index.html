@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 5em;
+            height: 100vh;
+            /* background-color: red; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="control">
+        <button>Start</button>
+        <button>Pause</button>
+        <button>Reset</button>
+        <button>Lap</button>
+
+
+    </div>
+    <div class="stopwatch">00:00:00:00</div>
+    <div class="lap"></div>
+    <script>
+        let h = 0, m = 0, s = 0, ms = 0
+        const btnStart = document.getElementsByTagName('button')[0];
+        const btnPause = document.getElementsByTagName('button')[1];
+        const btnReset = document.getElementsByTagName('button')[2];
+        const btnLap = document.getElementsByTagName('button')[3];
+        const lapContainer = document.getElementsByClassName('lap')[0];
+        const stopWatch = document.getElementsByClassName('stopwatch')[0];
+        let time;
+
+        ////function
+        function start() {
+            time = setInterval(runWatch, 10);
+        }
+        function pause() {
+            clearInterval(time)
+        }
+        function reset(){
+            stopWatch.textContent = "00:00:00:00";
+        }
+        function runWatch() {
+            stopWatch.textContent = (h < 10 ? "0" + h : h) + ":" + (m < 10 ? "0" + m : m) + ":" + (s < 10 ? "0" + s : s) + ":" + (ms < 10 ? "0" + ms : ms);
+            ms++;
+            if (ms == 100) {
+                ms = 0;
+                s++;
+            }
+            if (s == 60) {
+                s = 0;
+                m++;
+            }
+            if (m == 60) {
+                m = 0;
+                h++;
+            }
+        }
+        function getValue()
+        {
+            return (h < 10 ? "0" + h : h) + ":" + (m < 10 ? "0" + m : m) + ":" + (s < 10 ? "0" + s : s) + ":" + (ms < 10 ? "0" + ms : ms);
+        }
+        function lap()
+        {
+            const p = document.createElement('p');
+            p.style.fontSize = "20px"
+            p.innerText = getValue();
+            lapContainer.appendChild(p);
+
+        }
+        ///event listener
+        btnStart.addEventListener('click', start);
+        btnPause.addEventListener('click', pause);
+        btnReset.addEventListener('click',reset);
+        btnLap.addEventListener('click', lap);
+    </script>
+</body>
+
+</html>

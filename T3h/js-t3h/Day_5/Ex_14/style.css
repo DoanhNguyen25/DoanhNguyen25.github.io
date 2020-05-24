@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: gray;
+}
+.slide-container
+{
+    width: 60%;
+    margin: 0 auto; 
+    overflow-x: hidden;
+}
+.slide
+{
+    display: flex;
+    transition: all 0.5s;
+    
+}
+.slide img
+{
+   width: 100%;
+  /* */
+}
+#prebtn
+{
+    position: absolute;
+    font-size: 30px;
+    background: transparent;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+    top: 35%;
+    left: 25%;
+    color: gray;
+    opacity: 0.5;
+}
+#nextbtn
+{
+    position: absolute;
+    font-size: 30px;
+    background: transparent;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+    top: 35%;
+    right: 25%;
+    color: gray;
+    opacity: 0.5;
+}

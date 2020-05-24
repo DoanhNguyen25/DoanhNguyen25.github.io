@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #dfe6e9;
+        }
+
+        .bill-container {
+            width: 30%;
+            /* height: 50vh; */
+            margin: 100px auto;
+            background-color: #ffeaa7;
+            /* padding-left: 10px; */
+            /* padding-right: 10px; */
+            padding: 20px;
+        }
+
+        .processed {
+            margin-top: 50px;
+        }
+
+        .processed>input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            outline: none;
+            border-style: none;
+        }
+
+        .confirm {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .confirm button {
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            border-style: none;
+            outline: none;
+            border-radius: 30px;
+            box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bill-container">
+        <div class="header">
+            <center style="font-size: 30px;padding-top: 15px;">Hóa Đơn</center>
+        </div>
+        <div class="processed">
+            Quantity: <br><br>
+            <input type="text" name="" id="quantity">
+            <br><br><br>
+            Price: <br><br> <input type="text" name="" id="price">
+        </div>
+        <div class="confirm">
+            <button style="background-color: #e17055; color: white;;">Thanh Toán</button>
+        </div>
+    </div>
+    <script>
+        const btnPayBill = document.getElementsByTagName('button')[0];
+        const inputQuantity = document.getElementById('quantity');
+        const inputPrice = document.getElementById('price');
+        btnPayBill.addEventListener('click', PayBills);
+        function PayBills() {
+            const totalPrice = inputPrice.value * inputQuantity.value;
+            if(isNaN(inputPrice.value) || isNaN(inputQuantity.value))
+            {
+                alert("nhập sai trường dữ liệu")
+            }
+            if (inputPrice.value == "" || inputQuantity.value == "") {
+                alert("bạn phải điền đầy đủ thông tin")
+            }
+            else {
+                alert("số tiền phải thanh toán: " + totalPrice + "VND");
+                inputPrice.value ="";
+                inputQuantity.value=""
+            }
+        }
+
+    </script>
+</body>
+
+</html>

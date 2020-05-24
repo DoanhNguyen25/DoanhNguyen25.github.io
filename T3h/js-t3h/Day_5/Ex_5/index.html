@@ -1,0 +1,22 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            const input = prompt('nhập số để kiểm tra');
+            const year = new Date();
+            do{
+                const age = prompt("nhập ngày sinh của bạn")
+                // document.write("")
+                if(age < input)
+                {
+                    break;
+                }
+            }while(input >= year.getFullYear());
+        </script>
+    </body>
+    </html>
