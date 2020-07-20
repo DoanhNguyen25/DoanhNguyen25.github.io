@@ -50,9 +50,9 @@ function openModal()
     document.form2.createdby.value=issue.createdBy;
     document.form2.assignee.value=issue.assignee;
     document.form2.estimate.value=issue.estimate;
-    for(var i=0 ;i < issue.allowFor.length-1;i++)
+    for(var i=0 ;i < issue.allowFor.length;i++)
     {
-        document.getElementById(issue.allowFor[i]).checked = true;
+        document.getElementById(issue.allowFor[i]).checked = false;
     }
 }
 
