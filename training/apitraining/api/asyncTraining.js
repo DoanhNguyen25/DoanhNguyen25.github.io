@@ -35,18 +35,18 @@
 //     console.log(data)
 // })
 
-// const respon= fetch("https://www.mocky.io/v2/5185415ba171ea3a00704eed")
+// const respon= fetch("https://api.covid19api.com/summary")
 // const data=respon.then( async data=>{
 //     const myJson= await data.json();
 //     console.log(myJson)
 // })
-async function requestApi(url) {
-    const response = fetch(url)
-    const data = await response
-    const myJson = await data.json()
-    console.log(myJson)
-}
-requestApi("https://api.covid19api.com/summary")
+// async function requestApi(url) {
+//     const response = fetch(url)
+//     const data = await response
+//     const myJson = await data.json()
+//     console.log(myJson)
+// }
+// requestApi("https://api.covid19api.com/summary")
 
 // function requestApi2() {
 //     var xhttp = new XMLHttpRequest();
@@ -62,46 +62,36 @@ requestApi("https://api.covid19api.com/summary")
 async function requestApi(url) {
     const response = fetch(url)
     const data = await response
+    // console.log(data)
     return data.json()
 }
+requestApi("https://api.covid19api.com/summary").then(data => {
+        console.log("Data", data)
+        document.getElementById("demo1").innerHTML = data.Global.NewConfirmed;
+        document.getElementById("demo2").innerHTML = data.Global.NewDeaths;
+        document.getElementById("demo3").innerHTML = data.Global.NewRecovered;
+        document.getElementById("demo4").innerHTML = data.Global.TotalConfirmed;
+        document.getElementById("demo5").innerHTML = data.Global.TotalDeaths;
+        document.getElementById("demo6").innerHTML = data.Global.TotalRecovered;
+
+
+        document.getElementById("vn1").innerHTML = data.Countries[181].NewConfirmed;
+        document.getElementById("vn2").innerHTML = data.Countries[181].NewDeaths;
+        document.getElementById("vn3").innerHTML = data.Countries[181].NewRecovered;
+        document.getElementById("vn4").innerHTML = data.Countries[181].TotalConfirmed;
+        document.getElementById("vn5").innerHTML = data.Countries[181].TotalDeaths;
+        document.getElementById("vn6").innerHTML = data.Countries[181].TotalRecovered;
+
+    })
+    
+// setTimeout(() => {
+    
+// }, 3000);
 
 setTimeout(() => {
-        requestApi("https://api.covid19api.com/summary").then(data => {
-            console.log("Data", data)
-            document.getElementById("demo1").innerHTML = data.Global.NewConfirmed;
-            document.getElementById("demo2").innerHTML = data.Global.NewDeaths;
-            document.getElementById("demo3").innerHTML = data.Global.NewRecovered;
-            document.getElementById("demo4").innerHTML = data.Global.TotalConfirmed;
-            document.getElementById("demo5").innerHTML = data.Global.TotalDeaths;
-            document.getElementById("demo6").innerHTML = data.Global.TotalRecovered;
-            
-        })
-    }, 3000);
+    document.getElementById("load").style.display = "none";
+    document.getElementsByClassName("container")[0].style.display = "grid"
+    document.getElementsByClassName("container-vn")[0].style.display = "flex"
 
-    setTimeout(()=>
-    {
-        document.getElementById("load").style.display ="none";
-        document.getElementsByClassName("container")[0].style.display="grid"
-    },2000)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-NewConfirmed: 90813
-NewDeaths: 4736
-NewRecovered: 84595
-TotalConfirmed: 3578992
-TotalDeaths: 251397
-TotalRecovered: 1159713
+    
+}, 2000)
