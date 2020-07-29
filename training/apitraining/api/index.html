@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
     <link rel="shortcut icon" type="image/png" href="./download-who-logo-png.png"/>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-    <title>Covid-19 Update</title>
     <style>
         *
         {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Ubuntu', sans-serif;
+            font-family: cursive;
         }
         .container{
             width: 70%;
@@ -31,6 +30,12 @@
             text-align: center;
             padding: 5px 0 0 0 ;
         }
+        .container-vn
+        {
+            display: none; 
+            justify-content: space-evenly; 
+            margin-top: 50px;
+        }
         
         @media screen and (max-width:700px){
             .container
@@ -39,15 +44,14 @@
                 grid-template-columns: 1fr;
                 grid-auto-rows: 100px;
                 grid-gap: 5px;
-                display:none;
+                display: none;
             }
         }
-        
         
     </style>
 </head>
 <body>
-    <center style="color: black;font-weight: 400;font-size: 30px;">CORONA VIRUS</center>
+    <center style="color: black;font-weight: 400;font-size: 30px;font-family: cursive;">CORONA VIRUS</center>
     <center style="font-family: cursivel;font-weight: 400">update</center>
     <br><br><br>
     <center id="load"><h1>Loading......</h1></center>
@@ -77,6 +81,37 @@
             <p>TotalRecovered</p><br>
             <p id="demo6"></p>
         </div>
+    </div>
+    <br>
+    <center><h1>Việt Nam</h1></center>
+    <div class="container-vn" >
+        <div class="col1">
+            <p>NewConfirmed</p><br>
+            <p id="vn1"></p>
+        </div>
+        <div class="col1">
+            <p>NewDeaths</p><br>
+            <p id="vn2"></p>
+        </div>
+        <div class="col1">
+            <p>NewRecovered</p><br>
+            <p id="vn3"></p>
+        </div>
+        <div class="col1">
+            <p>TotalConfirmed</p><br>
+            <p id="vn4"></p>
+        </div>
+        <div class="col1">
+            <p>TotalDeaths</p><br>
+            <p id="vn5"></p>
+        </div>
+        <div class="col1">
+            <p>TotalRecovered</p><br>
+            <p id="vn6"></p>
+        </div>
+
+
+        
     </div>
     <script src="asyncTraining.js"></script>
 </body>
