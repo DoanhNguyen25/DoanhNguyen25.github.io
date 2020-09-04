@@ -70,8 +70,10 @@ function game(userChoice){
 }
 function onReset()
 {
-    userScore_span.innerHTML = 0;
-    computerScore_span.innerHTML = 0;
+    userScore = 0;
+    computerScore = 0;
+    userScore_span.innerHTML = userScore ;
+    computerScore_span.innerHTML = computerScore;
     result_p.innerHTML = "";
 }
 
