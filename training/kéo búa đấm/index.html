@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>rock</title>
+  </head>
+  <body onload="main()">
+    <header>
+      <h1>Đá Kéo Giấy</h1>
+    </header>
+
+    <div class="score-board">
+      <div id="user-label" class="badge">user</div>
+      <div id="comp-label" class="badge">comp</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+    
+    <div class="result">
+      <p></p>
+    </div>
+
+    <div class="choices">
+      <div class="choice" id="r">
+        <img
+          src="./images/212-2122744_rock-paper-scissors-clipart-png-download-rock-paper.png"
+          alt=""
+        />
+      </div>
+      <div class="choice" id="p">
+        <img
+          src="./images/57-579200_danahand-paper-rock-paper-scissors-png.png"
+          alt=""
+        />
+      </div>
+      <div class="choice" id="s">
+        <img
+          src="./images/502-5025731_scissors-clipart-png-download-rock-paper-scissors-clipart.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <p id="action-message">
+        <button onclick="onReset()">RESET</button>
+    </p>
+    <script src="main.js"></script>
+  </body>
+</html>

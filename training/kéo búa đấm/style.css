@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #24272e;
+}
+header{
+    background:white;
+    padding:20px;
+}
+header > h1{
+    color:#24272e;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+.score-board{
+    border:3px solid white;
+    margin: 20px auto;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    border-radius: 4px;
+    padding:15px 20px;
+    text-align:center;
+    font-family: Asap, sans-serif;
+    position: relative;
+}
+.badge{
+    background:#e25840;
+    color: white;
+    font-size: 14px;
+    padding:2px 10px;
+    font-family: Asap, sans-serif;
+}
+#user-label{
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+#comp-label{
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+.result{
+    font-size: 40px;
+    color:white;
+}
+.result >p{
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.choice{
+    cursor: pointer;
+}
+.choices img{
+    width: 150px; 
+    border-radius: 50%;
+    margin: 15px;
+    border:3px solid gray;
+} 
+#action-message{
+    text-align: center;
+    color: white;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#action-message > button{
+    padding:10px;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
