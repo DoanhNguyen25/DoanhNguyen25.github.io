@@ -1,0 +1,153 @@
+
+.signin{
+    width: 25.25rem;
+    /* height: 24.5rem; */
+    z-index: 9999;
+    position: absolute;
+    top: 15rem;
+    background:rgba(0, 0, 0, 0.5);
+    left: 4rem;
+}
+.signin--text{
+    color: #fff;
+    font-size: 3rem;
+    z-index: 9999;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -2rem;
+    left: 2rem;
+    position: absolute;
+}
+.form{
+    padding:2rem 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-top: 2rem;
+}
+.from__group{
+    /* margin-bottom: 0.25rem; */
+    transition: all .3s;
+}
+.form--lable{
+    display: block;
+    font-size: 1.5rem;
+    color: #000;
+    transform: translateY(-3rem) translateX(1.5rem);
+    transition: all .3s;
+}
+.form--control{
+    padding: 1.5rem;
+    border-color: #aaa;
+    border-style: none none solid none;
+    outline: none;
+    width: 100%;
+    transition: all .5s;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+   
+}
+.form--control::placeholder{
+    color: transparent;
+}
+.form--control:focus + .form--lable,
+.form--control:not(:placeholder-shown) + .form--lable
+{
+    transform: translateY(-5rem) translateX(-3rem) scale(0.6);
+    color: gray;
+}
+.btn--login{
+    padding: 1.5rem;
+    border-color: #aaa;
+    border-style: none none solid none;
+    outline: none;
+    width: 100%;
+    transition: all .5s;
+    font-size: 1.5rem;
+    background-color: green;
+    margin-top: 0%;
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+.btn--login-Twitter{
+    background-color: #3CA6CC;
+}
+.btn--login-Twitter i{
+    transform: translateX(-3rem) translateY(0.25rem);
+    font-size: 2rem;
+}
+.btn--login-Facebook{
+    background-color: #264F88;
+    margin-bottom: 3rem;
+}
+.btn--login-Facebook i{
+    transform: translateX(-3rem) translateY(0.25rem);
+    font-size: 2rem;
+}
+
+.form span > a{
+    text-decoration: none;
+    color: #ffff;
+    display: block;
+    transform: translateX(13.75rem);
+    margin-bottom: 2rem; 
+}
+.form--text-deco{
+    color: gray;
+    font-size: 2rem;
+    position: absolute;
+    top: 22.75rem;
+    left: 11.5rem;
+    z-index: 9999;
+}
+.line{
+    /* width: 100%;
+    height: 1px; */
+    background-color: gray;
+    margin-bottom: 5rem;
+    position: relative;
+}
+.line::before{
+    content:"";
+    width: 35%;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 0rem;
+    background-color: gray;
+    border-radius:0.5rem;
+    opacity: 0.5;
+}
+.line::after{
+    content: "";
+    width: 35%;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0.5rem;
+    background-color: gray;
+    opacity: 0.5;
+}
+.utility-1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+.utility-1 > a{
+    text-align: center!important;
+    color: red;
+}
+.utility-1 > a:active{
+    color: blue;
+}
+.utility-2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.utility-2 > a{
+    text-align: center!important;
+    text-decoration: none;
+    color: white;
+}
