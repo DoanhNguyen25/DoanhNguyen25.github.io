@@ -1,0 +1,322 @@
+/* -----------------Register Responsive------------------ */
+@media screen and(min-width:320px) {
+    .logo img{
+        
+    }
+}
+@media screen and (min-width:350px){
+    .signin{
+        left: 4.5rem;
+    }
+    .logo img{
+        left:16.5rem;
+        top:8rem;
+        width: 15rem;
+        height: 7rem;
+    }
+}
+@media screen and (min-width:370px){
+    .signin{
+        left: 7.5rem;
+        
+    }
+    .logo img{
+        left:19rem;
+        top: 8rem;
+        width: 15rem;
+        height: 7rem;
+    }
+}
+@media screen and (min-width:390px){
+    .signin{
+        left: 6.5rem;
+    }
+    .logo img{
+        left:18.5rem;
+        width: 15rem;
+        height: 7rem;
+    }
+}
+@media screen and (min-width:410px){
+    .signin{
+        left: 6.5rem;
+        width: 30.25rem;
+        margin-top: 10rem;
+    }
+    .logo img{
+        left:20.5rem;
+        width: 15rem;
+        height: 7rem;
+    }
+    .form--text-deco{
+        left: 13.5rem;
+    }
+    .form span a{
+        transform: translateX(18.75rem);
+    }
+
+    .form--lable{
+        display: block;
+        font-size: 1.5rem;
+        color: #000;
+        transform: translateY(-3rem) translateX(1rem);
+        transition: all .3s;
+    }
+    .form--control:focus + .form--lable,
+    .form--control:not(:placeholder-shown) + .form--lable
+    {
+    transform: translateY(-5rem) translateX(-4rem) scale(0.6);
+    color: gray;
+    }
+}
+@media screen and (min-width:470px){
+    .signin{
+        left: 6.5rem;
+        width: 35.25rem;
+        margin-top: 10rem;
+    }
+    .logo img{
+        left:21.5rem;
+        width: 15rem;
+        height: 7rem;
+    }
+    .form--text-deco{
+        left: 16.5rem;
+    }
+    .form span a{
+        transform: translateX(23.75rem);
+    }
+    .form--control:focus + .form--lable,
+    .form--control:not(:placeholder-shown) + .form--lable
+    {
+    transform: translateY(-5rem) translateX(-5rem) scale(0.6);
+    color: gray;
+    }
+}
+@media screen and (min-width:500px){
+    .signin{
+        left: 9.5rem;
+        width: 35.25rem;
+        margin-top: 10rem;
+    }
+    .logo img{
+        left:25.5rem;
+        width: 15rem;
+        height: 7rem;
+    }
+    .form--control:focus + .form--lable,
+    .form--control:not(:placeholder-shown) + .form--lable
+    {
+    transform: translateY(-5rem) translateX(-5rem) scale(0.6);
+    color: gray;
+    }
+}
+@media screen and (min-width:550px){
+    .signin{
+        left: 8.5rem;
+        width: 40rem;
+        margin-top: 10rem;
+    }
+    .logo img{
+        left:27.5rem;
+        width: 15rem;
+        height: 7rem;
+    }
+    .form--text-deco{
+        left: 19.5rem;
+    }
+    .form span a{
+        transform: translateX(29.75rem);
+    }
+    .form--control:focus + .form--lable,
+    .form--control:not(:placeholder-shown) + .form--lable
+    {
+    transform: translateY(-5rem) translateX(-6rem) scale(0.6);
+    color: gray;
+    }
+}
+@media screen and (min-width:600px){
+    .signin{
+        left: 11.5rem;
+        width: 40rem;
+        margin-top: 10rem;
+    }
+    .logo img{
+        left:29.5rem;
+        width: 15rem;
+        height: 7rem;
+    }
+    .form--text-deco{
+        left: 18.5rem;
+    }
+    .form span a{
+        transform: translateX(28.75rem);
+    }
+    .form--control:focus + .form--lable,
+    .form--control:not(:placeholder-shown) + .form--lable
+    {
+    transform: translateY(-5rem) translateX(-6rem) scale(0.6);
+    color: gray;
+    }
+}
+@media screen and (min-width:650px){
+    .signin{
+        left: 13.5rem;
+        width: 40rem;
+        margin-top: 10rem;
+    }
+    .logo img{
+        left:37.5rem;
+        width: 15rem;
+        height: 7rem;
+    }
+    .form--text-deco{
+        left: 18.5rem;
+    }
+    .form span a{
+        transform: translateX(28.75rem);
+    }
+}
+@media screen and (min-width:700px){
+    .signin{
+        left: 18.5rem;
+        width: 40rem;
+        margin-top: 10rem;
+    }
+    .logo img{
+        left:38.5rem;
+        width: 15rem;
+        height: 7rem;
+    }
+}
+@media screen and (min-width:800px){
+    .signin{
+        left: 20.5rem;
+        width: 40rem;
+        margin-top: 10rem;
+    }
+    .logo img{
+        left:41.5rem;
+        width: 15rem;
+        height: 7rem;
+    }
+}
+@media screen and (min-width:900px){
+    .signin{
+        left: 26.5rem;
+        width: 40rem;
+        margin-top: 10rem;
+    }
+    .logo img{
+        left:46.5rem;
+        width: 15rem;
+        height: 7rem;
+    }
+}
+@media screen and (min-width:1000px){
+    .signin{
+        left: 31.5rem;
+        width: 40rem;
+        margin-top: 10rem;
+    }
+    .logo img{
+        left:50.5rem;
+        
+    }
+    .utility-1,.utility-2{
+        font-size: 1rem;
+    }
+    .logo img{
+        width: 15rem;
+        height: 7rem;
+        top: 7rem;
+        left: 51rem;
+    }
+    
+}
+@media screen and (min-width:1200px){
+    .signin{
+        left: 43.5rem;
+        width: 40rem;
+        margin-top: 10rem;
+    }
+    .logo img{
+        left:57.5rem;
+    }
+    .utility-1,.utility-2{
+        font-size:1.25rem;
+    }
+    .logo img{
+        width: 20rem;
+        height: 10rem;
+        top: 7rem;
+        left: 64rem;
+    }
+}
+@media screen and (min-width:1300px){
+    .signin{
+        left: 47.5rem;
+        width: 40rem;
+        margin-top: 10rem;
+    }
+    .logo img{
+        left:66.5rem;
+    }
+    .utility-1,.utility-2{
+        font-size: 1.5rem;
+    }
+    .logo img{
+        width: 20rem;
+        height: 10rem;
+        top: 5;
+        left:69rem;
+    }
+}
+@media screen and (min-width:1400px){
+    .signin{
+        left: 50.5rem;
+        width: 40rem;
+        margin-top: 10rem;
+    }
+    .logo img{
+        left:64.75rem;
+    }
+    .form span a{
+        font-size: 1rem;
+    }
+    
+    .utility-1,.utility-2{
+        font-size: 2rem;
+    }
+    .logo img{
+        width: 20rem;
+        height: 10rem;
+        top: 5;
+        left:72rem;
+    }
+    
+}
+@media screen and (min-width:1500px){
+    .signin{
+        left: 74.5rem;
+        width: 40rem;
+        margin-top: 10rem;
+    }
+    .logo img{
+        left:64.75rem;
+    }
+    .form span a{
+        font-size: 1rem;
+    }
+    
+    .utility-1,.utility-2{
+        font-size: 2rem;
+    }
+    .logo img{
+        width: 20rem;
+        height: 10rem;
+        top: 5;
+        left:94rem;
+    }
+    
+}
