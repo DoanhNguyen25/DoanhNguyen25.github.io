@@ -1,4 +1,11 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
 .register{
     width: 28rem;
     background:rgba(0, 0, 0, 0.5);

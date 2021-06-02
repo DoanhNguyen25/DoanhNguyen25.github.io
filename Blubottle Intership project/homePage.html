@@ -7,13 +7,14 @@
     <title>Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style/__base.css">
-    <link rel="stylesheet" href="style/__home.css">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="home--container">
         <div class="navbar">  
             <div class="navbar__sub">
-                
+                <a href="#" id="btn_close"><img src="./images/icon-close.svg" alt=""></a>
             </div>
             <div class="navbar__container">
                 <div class="navbar__logo">
@@ -35,7 +36,7 @@
                         <a href="#"><img src="./images/icon-plus-filled.svg" alt=""></a>
                     </div>
                     <div>
-                        <a href="#"><img src="./images/icon-burger.svg" alt=""></a>
+                        <a href="#" id="btn_open"><img src="./images/icon-burger.svg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -44,5 +45,22 @@
         <div class="utility"></div>
         <div class="content">hello world</div>
     </div>
+
+    <script>
+        const btn_close  = document.getElementById('btn_close');
+        const btn_open = document.getElementById('btn_open');
+        const mask = document.getElementsByClassName('navbar__sub')[0];
+        btn_open.addEventListener('click',()=>{
+            btn_open.style.display = "none"
+            btn_close.style.display = "block"
+            mask.classList.remove('navbar__sub-hidden')
+        })
+        btn_close.addEventListener('click',()=>{
+            btn_close.style.display = "none"
+            btn_open.style.display = 'block'
+            mask.classList.add('navbar__sub-hidden')
+            // mask.classList.remove('')
+        })
+    </script>
 </body>
 </html>

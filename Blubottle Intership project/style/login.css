@@ -1,4 +1,11 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
 .signin{
     width: 25.25rem;
     /* height: 24.5rem; */
