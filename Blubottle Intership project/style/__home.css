@@ -1,0 +1,62 @@
+.container{
+    width: 100%;
+    height:100vh;
+    background-color:lightgoldenrodyellow;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    width: 100%;
+    height: 7rem;
+    background-color:white;
+}
+.navbar__container{
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: blue; */
+    display: flex;
+}
+.navbar__logo{
+    width: 35%;
+    height: 100%;
+    /* background-color: green; */
+    object-fit: contain;
+}
+.navbar__logo img{
+    width:10.5rem;
+    height: 7rem;
+    object-fit: contain;
+    
+
+}
+.navbar__features{
+    width: 65%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.navbar__features div{
+    width: calc(100% / 5);
+    height: 4rem;
+    text-align: center;
+}
+.navbar__features div:nth-child(even){
+    background-color:pink;
+}
+.navbar__features div:nth-child(odd){
+    background-color:green;
+}
+.utility{
+    width: 100%;
+    height: 6rem;
+    background-color: pink;
+}
+.content{
+    width: 100%;
+    height: 6rem;
+    background-color: red;
+}
