@@ -257,6 +257,7 @@
 
 .masonryLayout__wrapper {
   padding: 1rem;
+  
 }
 .item--content {
   background: rgb(250, 250, 249);
@@ -325,8 +326,10 @@
   position: relative;
 }
 .content__reaction--interative .fa-heart:hover {
-  color: red;
   cursor: pointer;
+}
+.active{
+  color: red;
 }
 .content__reaction--interative .fa-comment:hover {
   color: rgb(192, 180, 180);
@@ -456,7 +459,17 @@
 @media screen and (min-width: 1300px) {
   .masonryLayout {
     /* background-color: red; */
-    column-count: 6;
+    /* column-count: 6;
+    column-gap: 3rem;
+    margin-top: -8rem; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: -2rem;
+  }
+  .masonryLayout__wrapper{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
     column-gap: 3rem;
     margin-top: -8rem;
   }
