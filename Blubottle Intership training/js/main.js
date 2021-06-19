@@ -791,6 +791,426 @@ const dataPost = [
     totalHeart: 35,
     type: "news",
   },
+  {
+    id:66,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:67,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:68,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:69,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:70,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:71,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:72,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:73,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:74,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:75,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:76,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:77,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:78,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:79,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:80,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:81,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:82,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:83,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:84,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:85,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:86,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:87,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:88,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:89,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:90,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:91,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:92,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:93,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:94,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:95,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:96,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:97,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:98,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:99,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  },
+  {
+    id:100,
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sitfissimos obcaecati molestias nisidoloribus vero, tempore minima adipisci",
+    eventTime: 1614767700000,
+    imageUrl: "./images/content-img/12795f600c5c4ed2974b5d547663d1a6.jpg",
+    link: "",
+    favorited: true,
+    totalComment: 0,
+    totalHeart: 35,
+    type: "news",
+  }
 ];
 
 //  assignment1: load data, each load show page contains 20 items.
@@ -814,7 +1234,7 @@ function render(item) {
         <span>20 hours</span>
       </div>
       <div class="content__reaction--interative">
-        <span class="heart">
+        <span class="heart" data-id="${item.id}">
           <i class="fas fa-heart"></i>
           <span class="counter__heart">${item.totalHeart}</span>
         </span>
@@ -861,16 +1281,16 @@ load()
 scrollPage(dataPost);
 
 
-var countPage = 0;
+var countPage = 1;
 function scrollPage(data) {
   document.onscroll = () => {
     const { scrollHeight, scrollTop, clientHeight } = document.documentElement;
     if ( scrollTop >= scrollHeight - clientHeight - 1   && countPage < 5) {
-      console.log(countPage);
-
+      
       showPost(data)
       // changeStatusIconReaction()
       countPage++;
+      console.log(countPage);
     }
   };
 }
@@ -897,21 +1317,23 @@ function showFilter() {
       listnew = [];
       masonry__wrapper.textContent = "";
       getByType(e.target.innerText.toLowerCase());
-      changeStatusIconReaction()
+      // changeStatusIconReaction()
     });
   }
 };
 ///assignment 3: update status of reacting activities
 function changeStatusIconReaction() {
   // load();
-  const iconHeartCounter = [...document.querySelectorAll(".counter__heart")];
-  const iconHearts = [...document.querySelectorAll(".heart > i")];
+  const iconHeartCounter = Array.from( document.querySelectorAll(".counter__heart"));
+  const iconHearts = Array.from(document.querySelectorAll(".heart > i"));
   console.log(iconHearts)
-  iconHearts.forEach(item=>{
+  iconHearts.forEach((item,index)=>{
     item.addEventListener("click",(e)=>{
       item.classList.toggle('active')
+      let parentid = e.target.parentNode.dataset.id;
+      
       console.log(item)
-      console.log(e.target)
+      console.log(e.target.parentNode.dataset.id)
     })
   })
 }
