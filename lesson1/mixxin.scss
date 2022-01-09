@@ -1,0 +1,29 @@
+
+$XS:     375px;   
+$SM:     480px;  
+$MD:    768px;   
+$LG:   1024px; 
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16.5%;
+}
+    
+// media queries
+
+@mixin Responsive($canvas) {
+  @if $canvas == XS {
+   @media only screen and (min-width: $XS) { @content; } 
+  }
+  @else if $canvas == SM {
+   @media only screen and (min-width: $SM) { @content; } 
+  }
+  @else if $canvas == MD {
+   @media only screen and (min-width: $MD) { @content; } 
+  }
+  @else if $canvas == LG {
+   @media only screen and (min-width: $LG) { @content; } 
+  }
+}

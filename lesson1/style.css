@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.wrapper {
+  height: auto;
+  font-size: 1.5rem;
+  background-color: #000;
+  padding: 2rem;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+@media only screen and (min-width: 1024px) {
+  .wrapper {
+    height: 100vh;
+  }
+}
+.wrapper__container {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.wrapper .header {
+  width: 100%;
+  margin: 0 auto;
+  color: #fff;
+  margin-bottom: 5rem;
+}
+.wrapper .header__title {
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+.wrapper .content {
+  width: 100%;
+  color: white;
+}
+.wrapper .content .list--members {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 768px) {
+  .wrapper .content .list--members {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+.wrapper .content .list--members .member {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #151c20;
+  border-radius: 1rem;
+  transition: all 0.5s;
+  outline: none;
+}
+.wrapper .content .list--members .member:hover {
+  transform: translateY(-1rem);
+  box-shadow: rgba(250, 63, 63, 0.51) 0px 7px 6px, rgba(250, 63, 63, 0.51) 0px 0px 15px;
+}
+@media only screen and (min-width: 768px) {
+  .wrapper .content .list--members .member {
+    width: calc(100% / 3);
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .wrapper .content .list--members .member {
+    width: 20%;
+  }
+}
+.wrapper .content .list--members .member--image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.wrapper .content .list--members .member--image img {
+  width: 70%;
+  object-fit: cover;
+}
+.wrapper .content .list--members .member--desc {
+  text-align: center;
+}
+.wrapper .detail__item {
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 3rem;
+  background-color: #fff;
+  color: #000;
+}
+@media only screen and (min-width: 1024px) {
+  .wrapper .detail__item {
+    background-color: transparent;
+    color: #fff;
+  }
+}
+.wrapper .avtive {
+  transform: translateY(-1rem);
+  box-shadow: rgba(250, 63, 63, 0.51) 0px 7px 6px, rgba(250, 63, 63, 0.51) 0px 0px 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

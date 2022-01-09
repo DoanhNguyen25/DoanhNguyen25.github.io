@@ -1,0 +1,119 @@
+$black: #000;
+$white: #fff;
+$green: #151c20;
+@import "./mixxin.scss";
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.wrapper {
+  height: auto;
+  font-size: 1.5rem;
+  background-color: $black;
+  padding: 2rem;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+
+  @include Responsive(LG) {
+    height: 100vh;
+  }
+
+  &__container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .header {
+    width: 100%;
+    margin: 0 auto;
+    color: $white;
+    margin-bottom: 5rem;
+
+    &__title {
+      font-size: 30px;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .content {
+    width: 100%;
+    color: white;
+    .list--members {
+      display: flex;
+      flex-direction: column;
+
+      @include Responsive(MD) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+
+      .member {
+        margin-bottom: 2rem;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $green;
+        border-radius: 1rem;
+        transition: all 0.5s;
+        outline: none;
+
+        &:hover {
+          transform: translateY(-1rem);
+          box-shadow: rgb(250 63 63 / 51%) 0px 7px 6px,
+            rgb(250 63 63 / 51%) 0px 0px 15px;
+        }
+
+        @include Responsive(MD) {
+          width: calc(100% / 3);
+        }
+        @include Responsive(LG) {
+          width: 20%;
+        }
+
+        &--image {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 2rem;
+
+          img {
+            width: 70%;
+            object-fit: cover;
+          }
+        }
+        &--desc {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .detail__item {
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 3rem;
+    background-color: $white;
+    color: #000;
+    @include Responsive(LG) {
+      background-color: transparent;
+      color: $white;
+    }
+  }
+  .avtive {
+    transform: translateY(-1rem);
+    box-shadow: rgb(250 63 63 / 51%) 0px 7px 6px,
+      rgb(250 63 63 / 51%) 0px 0px 15px;
+  }
+}
