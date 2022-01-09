@@ -19,7 +19,6 @@ const showNameByIndex = (index) => {
 
 [].forEach.call(members, (member, index) => {
     member.addEventListener('click', () => {
-        member.className += "active"
         selectedName.innerText = showNameByIndex(index)
     })
 })
